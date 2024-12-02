@@ -1,0 +1,17 @@
+clear
+opt=y
+while [ $opt=y ] do
+clear
+echo "-------------- FILE COMMANDS MENU DRIVEN --------------------"
+echo
+echo "1. to remove file"
+echo "2. to copy file"
+echo "3. to concatenate"
+echo "4. to remove file"
+echo "5. to compare two file"
+echo "6. to count no of wrods"
+echo "7. to aplit the file"
+echo "8. ti differentiate two file"
+print"enter your choice"
+read ch
+case $ch in
